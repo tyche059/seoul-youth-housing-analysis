@@ -62,7 +62,7 @@ ORDER BY (IFNULL(B.공급, 0) * 100.0 / A.수요) ASC
 
 df_1 = load_data(sql_1)
 
-# ⭐ 원 그래프를 위한 데이터 가공 (Top 5 지역의 총 수요 vs 총 공급)
+# ⭐ 원 그래프를 위한 데이터 가공 (총 수요 vs 총 공급)
 total_demand = df_1['무주택 청년수(수요)'].sum()
 total_supply = df_1['안심주택 세대수(공급)'].sum()
 
@@ -78,7 +78,7 @@ with col1:
     
     # 도넛 모양의 원 그래프 (hole=0.3 속성)
     fig1 = px.pie(df_pie, names='구분', values='가구수', hole=0.3, 
-                  title="Top 5 지역의 총 수요 vs 총 공급 비율",
+                  title="총 수요 vs 총 공급 비율",
                   color='구분', color_discrete_sequence=['#FF9999', '#66B2FF'])
     st.plotly_chart(fig1, use_container_width=True)
     
