@@ -9,7 +9,7 @@ st.set_page_config(page_title="서울시 청년 주거 대시보드", layout="wi
 
 # 타이틀
 st.title("🏘️ 서울시 청년 주거 데이터 분석 대시보드")
-st.markdown("데이터 초보자도 쉽게 이해할 수 있는 서울시 무주택 청년과 주거 공급 현황입니다.")
+st.markdown("데이터 초보자도 쉽게 이해할 수 있는 2024년 서울시 무주택 청년과 주거 공급 현황입니다.")
 
 # 1. DB 파일 존재 여부 확인
 db_path = "seoul_youth_housing.db"
