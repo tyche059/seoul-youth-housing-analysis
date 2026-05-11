@@ -24,10 +24,17 @@ https://drive.google.com/file/d/1LLKUPDZqdXN6hZdGpnPRlJmmcD1pU0yN/view?usp=shari
      
 **2. SQL문 작성**
    - 시군구별 무주택 청년 인구와 청년주택 공급의 미스매치 비율 (원그래프&상세 표)
+   <img width="1074" height="904" alt="image" src="https://github.com/user-attachments/assets/15749b8c-0bed-4497-bfad-6744e21e9f65" />
+
    
    - 바로 입주 가능한 시군구 Top5 (가로 막대 그래프)
-   - 평균 임대료가 높은 시군구 Top5 (버블 차트)
+   <img width="479" height="240" alt="image" src="https://github.com/user-attachments/assets/7054ebfe-4471-4a8f-9b06-5f88f5889611" />
+
    
+   - 평균 임대료가 높은 시군구 Top5 (버블 차트)
+   <img width="736" height="205" alt="image" src="https://github.com/user-attachments/assets/9f65e88c-a3c2-4cae-9293-fbc1b81b9acf" />
+
+
 **3. 예상 결과 및 인사이트**
    - 시군구별 무주택 청년 인구와 청년주택 공급의 미스매치 비율 (원그래프) -> 대학가 주변의 미스매치 비율이 가장 높을 것이다.
    - 바로 입주 가능한 시군구 Top5 (가로 막대 그래프) -> 서울 중심부, 대학가 근처를 제외한 곳들(외곽)이 공실이 많을 것이다.
